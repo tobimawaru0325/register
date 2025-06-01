@@ -65,7 +65,6 @@
       const price = parseInt(productEl.options[productEl.selectedIndex].dataset.price);
       const quantity = parseInt(document.getElementById("quantity").value);
       const gender = document.getElementById("gender").value;
-
       const amount = price * quantity;
 
       fetch(scriptURL, {
